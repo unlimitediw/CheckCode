@@ -5,21 +5,21 @@
 
 
 ### 0. 算法：
-简介：包含如backtracking，动态规划，树结构等各类算法。此文档所存是2018年7-10月使用python实现的算法，而在2018年1-2月的算法均使用c++实现，近期主要使用java完成算法工作。leetcode目前完成476题（unlimitediw)，其中medium&hard占比65%。每周leetcode contest前三道（一般为双medium，hard）均可在一个小时内完成，第四道hard看运气。
+* 简介：包含如backtracking，动态规划，树结构等各类算法。此文档所存是2018年7-10月使用python实现的算法，而在2018年1-2月的算法均使用c++实现，近期主要使用java完成算法工作。leetcode目前完成476题（unlimitediw)，其中medium&hard占比65%。每周leetcode contest前三道（一般为双medium，hard）均可在一个小时内完成，第四道hard看运气。
 
 ### 1. 城市数据预测
-简介：主要分为 - 1.基于SVR与MLP的数值预测部分; 2.基于CNN的特征验证部分。
-内容：项目报告(pdf)，测试代码(Predictor.py)，smo调参算法代码(MySMO.py)，mlp调参算法代码（MLPGenerator.py)，基于CNN的特征评估(mapToPopulation.py)，部分数据抓取(Search.py)，数据预处理(DataPreprocessing.py)，信息熵计算器(EntropyGainGenerator.py)，kfold(KfoldValidation.py)测试代码，以及现写的数据可视化(Visualization.py)等代码。
+* 简介：主要分为 - 1.基于SVR与MLP的数值预测部分; 2.基于CNN的特征验证部分。
+* 内容：项目报告(pdf)，测试代码(Predictor.py)，smo调参算法代码(MySMO.py)，mlp调参算法代码（MLPGenerator.py)，基于CNN的特征评估(mapToPopulation.py)，部分数据抓取(Search.py)，数据预处理(DataPreprocessing.py)，信息熵计算器(EntropyGainGenerator.py)，kfold(KfoldValidation.py)测试代码，以及现写的数据可视化(Visualization.py)等代码。
 
 ### 2. AWS项目开发：
-简介：
-a. AWS亚马逊网络服务平台是美国目前最大的云计算服务平台，本项目组主要集中于 i. 基于AWS redshift, hadoop及Lambda等工具的实时数据流分析处理，以及机器学习训练代码部署与分析;(BigDataMachineLearning.md, SageMakerTechReport.md) ii. Container的部署与管理，结合网页开发的应用项目，使用了swarm，Kubernetes等工具。(DockerContainer.md)。
-B. 项目主要目的是掌握aws中的各类api使用及原理。结合使用linux系统操作各类工具系统达成数据流处理，机器学习，服务器搭建等各类项目任务。
-c. 本地.md文件可能不支持图像读取，所以建议访问github链接https://github.com/unlimitediw/AWSProjects进行查阅。
+* 简介：
+	* AWS亚马逊网络服务平台是美国目前最大的云计算服务平台，本项目组主要集中于 i. 基于AWS redshift, hadoop及Lambda等工具的实时数据流分析处理，以及机器学习训练代码部署与分析;(BigDataMachineLearning.md, SageMakerTechReport.md) ii. Container的部署与管理，结合网页开发的应用项目，使用了swarm，Kubernetes等工具。(DockerContainer.md)。
+	* 项目主要目的是掌握aws中的各类api使用及原理。结合使用linux系统操作各类工具系统达成数据流处理，机器学习，服务器搭建等各类项目任务。
+	* 本地.md文件可能不支持图像读取，所以建议访问github链接https://github.com/unlimitediw/AWSProjects进行查阅。
 
 ### 3. 各类机器学习项目
-简介：各类机器学习小项目。
-内容：PIMA疾病预测(PimaKmeans.py, PimaKNN.py),MNIST-PCA数字预测(MNISTMLP.py,MNISTKNN.py,MNISTKmeans.py), 肝病预测(LiverMLP.py),工资预测(SalarySVM.py,SalaryMLP.py), 猫狗分类(CatDogCNN.py),目标检测-基于api(RecognitionRCNN.py),车辆识别-预处理阶段(CarImgPreProcess.py,CarImageBuild.py),行走学习(QLearningBasic.java)等。
+	* 简介：各类机器学习小项目。
+	* 内容：PIMA疾病预测(PimaKmeans.py, PimaKNN.py),MNIST-PCA数字预测(MNISTMLP.py,MNISTKNN.py,MNISTKmeans.py), 肝病预测(LiverMLP.py),工资预测(SalarySVM.py,SalaryMLP.py), 猫狗分类(CatDogCNN.py),目标检测-基于api(RecognitionRCNN.py),车辆识别-预处理阶段(CarImgPreProcess.py,CarImageBuild.py),行走学习(QLearningBasic.java)等。
 
 ### 4. 游戏AI平台：
 简介：设计了一系列棋类游戏AI和部分玩家对战接口，负责所有算法和sql部分，服务器客户端和notexponential部分是和同伴共同完成。
