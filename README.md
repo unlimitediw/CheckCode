@@ -15,7 +15,6 @@
 * 简介：
 	* AWS亚马逊网络服务平台是美国目前最大的云计算服务平台，本项目组主要集中于 i. 基于AWS redshift, hadoop及Lambda等工具的实时数据流分析处理，以及机器学习训练代码部署与分析;(BigDataMachineLearning.md, SageMakerTechReport.md) ii. Container的部署与管理，结合网页开发的应用项目，使用了swarm，Kubernetes等工具。(DockerContainer.md)。
 	* 项目主要目的是掌握aws中的各类api使用及原理。结合使用linux系统操作各类工具系统达成数据流处理，机器学习，服务器搭建等各类项目任务。
-	* 本地.md文件可能不支持图像读取，所以建议访问github链接https://github.com/unlimitediw/AWSProjects进行查阅。
 
 ### 3. [各类机器学习项目](https://github.com/unlimitediw/CheckCode/tree/master/3.%E5%90%84%E7%B1%BB%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%A3%E7%A0%81)
 * 简介：各类机器学习小项目。
