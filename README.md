@@ -21,27 +21,27 @@ c. 本地.md文件可能不支持图像读取，所以建议访问github链接ht
 简介：各类机器学习小项目。
 内容：PIMA疾病预测(PimaKmeans.py, PimaKNN.py),MNIST-PCA数字预测(MNISTMLP.py,MNISTKNN.py,MNISTKmeans.py), 肝病预测(LiverMLP.py),工资预测(SalarySVM.py,SalaryMLP.py), 猫狗分类(CatDogCNN.py),目标检测-基于api(RecognitionRCNN.py),车辆识别-预处理阶段(CarImgPreProcess.py,CarImageBuild.py),行走学习(QLearningBasic.java)等。
 
-4. 游戏AI平台：
+### 4. 游戏AI平台：
 简介：设计了一系列棋类游戏AI和部分玩家对战接口，负责所有算法和sql部分，服务器客户端和notexponential部分是和同伴共同完成。
 内容：三个AI - a.NPuzzle(NPuzzleAI.py), b.NTicTacToe(NTicaTacToeAI/AI.java,OptimalList.java等), c.NQueen,一个交流服务器客户端(KVStorer/),一个sql小论坛(SuggestionBoxSQL.java),一个notexponetial接口(not exponential.java)。
 
-5. SC2AI：
+### 5. SC2AI：
 简介：请预装星际争霸2并设置好系统路径,预装sc2Start中调用的包。
 内容：运行sc2Start会自动生成游戏进行选择难度进行对战(sc2Start.py)，sc获胜思路是，设计运营公式，使用空中单位(规避地形问题)。
 
-6. 基于机器学习的CPU分支预测
+### 6. 基于机器学习的CPU分支预测
 简介：使用程序运行中的trace地址记录文件，预测下次分支走向。
 内容：trace文件转换(Trace_Initializer.py)，地址记录器(Register.py),权重生成。（Perceptron_Table.py),感知机方法（Perceptron.py),LVQ方法(LVQ.py)。cadence优化方面如有需要我可以去实验室拿我做的模型。
 
-7. 基因预测：
+### 7. 基因预测：
 简介：基因分coding和non-coding，本项目旨在使用上一次基因片段顺序，关联概率预测下一次片段是coding还是noncoding。
 内容：HMM.py中包含解释
 
-8. 游戏设计：
+### 8. 游戏设计：
 简介：2016年至2018年之间，运用C#设计了rpg游戏，rts手游及各类小游戏，部分脚本存在这个文件夹中。
 内容：各类脚本（文件夹内大概为总量的15%)
 
-9. Other：
+### 9. Other：
 	简介：部分日常代码。
 
 
