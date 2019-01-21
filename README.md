@@ -11,38 +11,38 @@
 * 简介：主要分为 - 1.基于SVR与MLP的数值预测部分; 2.基于CNN的特征验证部分。
 * 内容：项目报告(pdf)，测试代码(Predictor.py)，smo调参算法代码(MySMO.py)，mlp调参算法代码（MLPGenerator.py)，基于CNN的特征评估(mapToPopulation.py)，部分数据抓取(Search.py)，数据预处理(DataPreprocessing.py)，信息熵计算器(EntropyGainGenerator.py)，kfold(KfoldValidation.py)测试代码，以及现写的数据可视化(Visualization.py)等代码。
 
-### 2. AWS项目开发：
+### 2. AWS项目开发
 * 简介：
 	* AWS亚马逊网络服务平台是美国目前最大的云计算服务平台，本项目组主要集中于 i. 基于AWS redshift, hadoop及Lambda等工具的实时数据流分析处理，以及机器学习训练代码部署与分析;(BigDataMachineLearning.md, SageMakerTechReport.md) ii. Container的部署与管理，结合网页开发的应用项目，使用了swarm，Kubernetes等工具。(DockerContainer.md)。
 	* 项目主要目的是掌握aws中的各类api使用及原理。结合使用linux系统操作各类工具系统达成数据流处理，机器学习，服务器搭建等各类项目任务。
 	* 本地.md文件可能不支持图像读取，所以建议访问github链接https://github.com/unlimitediw/AWSProjects进行查阅。
 
 ### 3. 各类机器学习项目
-	* 简介：各类机器学习小项目。
-	* 内容：PIMA疾病预测(PimaKmeans.py, PimaKNN.py),MNIST-PCA数字预测(MNISTMLP.py,MNISTKNN.py,MNISTKmeans.py), 肝病预测(LiverMLP.py),工资预测(SalarySVM.py,SalaryMLP.py), 猫狗分类(CatDogCNN.py),目标检测-基于api(RecognitionRCNN.py),车辆识别-预处理阶段(CarImgPreProcess.py,CarImageBuild.py),行走学习(QLearningBasic.java)等。
+* 简介：各类机器学习小项目。
+* 内容：PIMA疾病预测(PimaKmeans.py, PimaKNN.py),MNIST-PCA数字预测(MNISTMLP.py,MNISTKNN.py,MNISTKmeans.py), 肝病预测(LiverMLP.py),工资预测(SalarySVM.py,SalaryMLP.py), 猫狗分类(CatDogCNN.py),目标检测-基于api(RecognitionRCNN.py),车辆识别-预处理阶段(CarImgPreProcess.py,CarImageBuild.py),行走学习(QLearningBasic.java)等。
 
 ### 4. 游戏AI平台：
-简介：设计了一系列棋类游戏AI和部分玩家对战接口，负责所有算法和sql部分，服务器客户端和notexponential部分是和同伴共同完成。
-内容：三个AI - a.NPuzzle(NPuzzleAI.py), b.NTicTacToe(NTicaTacToeAI/AI.java,OptimalList.java等), c.NQueen,一个交流服务器客户端(KVStorer/),一个sql小论坛(SuggestionBoxSQL.java),一个notexponetial接口(not exponential.java)。
+* 简介：设计了一系列棋类游戏AI和部分玩家对战接口，负责所有算法和sql部分，服务器客户端和notexponential部分是和同伴共同完成。
+* 内容：三个AI - a.NPuzzle(NPuzzleAI.py), b.NTicTacToe(NTicaTacToeAI/AI.java,OptimalList.java等), c.NQueen,一个交流服务器客户端(KVStorer/),一个sql小论坛(SuggestionBoxSQL.java),一个notexponetial接口(not exponential.java)。
 
 ### 5. SC2AI：
-简介：请预装星际争霸2并设置好系统路径,预装sc2Start中调用的包。
-内容：运行sc2Start会自动生成游戏进行选择难度进行对战(sc2Start.py)，sc获胜思路是，设计运营公式，使用空中单位(规避地形问题)。
+* 简介：请预装星际争霸2并设置好系统路径,预装sc2Start中调用的包。
+* 内容：运行sc2Start会自动生成游戏进行选择难度进行对战(sc2Start.py)，sc获胜思路是，设计运营公式，使用空中单位(规避地形问题)。
 
 ### 6. 基于机器学习的CPU分支预测
-简介：使用程序运行中的trace地址记录文件，预测下次分支走向。
-内容：trace文件转换(Trace_Initializer.py)，地址记录器(Register.py),权重生成。（Perceptron_Table.py),感知机方法（Perceptron.py),LVQ方法(LVQ.py)。cadence优化方面如有需要我可以去实验室拿我做的模型。
+* 简介：使用程序运行中的trace地址记录文件，预测下次分支走向。
+* 内容：trace文件转换(Trace_Initializer.py)，地址记录器(Register.py),权重生成。（Perceptron_Table.py),感知机方法（Perceptron.py),LVQ方法(LVQ.py)。cadence优化方面如有需要我可以去实验室拿我做的模型。
 
 ### 7. 基因预测：
-简介：基因分coding和non-coding，本项目旨在使用上一次基因片段顺序，关联概率预测下一次片段是coding还是noncoding。
-内容：HMM.py中包含解释
+* 简介：基因分coding和non-coding，本项目旨在使用上一次基因片段顺序，关联概率预测下一次片段是coding还是noncoding。
+* 内容：HMM.py中包含解释
 
 ### 8. 游戏设计：
-简介：2016年至2018年之间，运用C#设计了rpg游戏，rts手游及各类小游戏，部分脚本存在这个文件夹中。
-内容：各类脚本（文件夹内大概为总量的15%)
+* 简介：2016年至2018年之间，运用C#设计了rpg游戏，rts手游及各类小游戏，部分脚本存在这个文件夹中。
+* 内容：各类脚本（文件夹内大概为总量的15%)
 
 ### 9. Other：
-	简介：部分日常代码。
+* 简介：部分日常代码。
 
 
 
