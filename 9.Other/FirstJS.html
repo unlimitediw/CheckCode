@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning JavaScript</title>
+	<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<div class="header">
+	<h1 id = "heading">Learning JS</h1>
+	<p>LALALA</p>
+</div>
+
+<div class="container">
+<h1 id = "time"></h1>
+<button onclick = "doClick()">Click Me</button>
+<button onclick = "this.innerHTML = 'warning!'">warn</button>
+<button onclick="changeText(this)">donotclick</button>
+<button onclick="showDate()"> Show Date</button>
+<button onmouseout = "clearDate()">Show Date</button>
+</div>
+
+<script>
+	// Number, Strimng
+	var number1 = 222;
+	alert("My favorite number is " + number1);
+
+	// begin with a letter
+	// Case sensitive (HTML is not)
+	// Camel case, partial case(MyFavor), underscore(my_favour)
+
+	// Array
+	var colors = ['red','blue','green',3,2,1];
+	var names = new Array('hi','li','ki');
+	names.push('pi');
+	console.log(names.sort());//.length, .revierse()
+
+	//Loops for, while, foreach
+	for(var i = 0;i < 3; i++){
+		console.log(i);
+	}
+	names.forEach(function(name){
+		console.log(name);
+	});
+
+	// branch
+	var var1 = 1;
+	var var2 = '1';
+	if (var1 === var2){
+		console.log("THIS IS TRUE");
+	} else{
+		console.log("THIS IS FALSE");
+	}
+
+	// switch
+	var sc2 = 't';
+	switch(sc2){
+		case 'zerg':
+			console.log('zergling');
+			break;
+		case 'terran':
+			console.log('marine');
+			break;
+		case 'protoss':
+			console.log('zealot');
+			break;
+		default:
+			console.log('not sc2');
+			break;
+	}
+
+	// Object
+	var marine = {
+		firstName: 'Jim',
+		lastName: 'Rynon',
+		age: 39,
+		friends: ['Tychus','Zeratul','Hank'],
+		address:{
+			Battlecruiser: 'Hyperion',
+			Room: '605'
+		},
+		fullName: function(){
+			return this.address.Battlecruiser + " " + this.address.Room;
+		}
+	}
+	console.log(marine.fullName());
+
+	// Object Constructor
+	var drobe = new Object();
+	drobe.color = 'white';
+	drobe.level = 0;
+	drobe.describe = function(){
+		return drobe.color + " and "+drobe.level;
+	}
+	console.log(drobe.describe());
+
+	// Constructor Pattern
+	function Worker(name,level,shape){
+		this.name = name;
+		this.level = level;
+		this.shape = shape;
+		this.describe = function(){
+			return this.name + " " + this.level;
+		}
+	}
+
+	var scv = new Worker('SCV',0,'rec');
+	console.log(scv.describe());
+
+	var workers = [
+		{
+			name: 'probe',
+			level: 0,
+			shape: 'rec'
+		},
+		{
+			name: 'drobe',
+			level: 0,
+			shape: 'rec'
+		},
+		{
+			name: 'scv',
+			level: 0,
+			shape: 'rec'
+		}
+	];
+	console.log(workers[1]);
+
+	// Events
+	function doClick(){
+		alert('scv ready!');
+	}
+
+	function changeText(id){
+		id.innerHTML = 'new Click';
+		var heading = document.getElementById('heading');
+		heading.innerHTML = 'You Clicked!';
+	}
+
+	function showDate(){
+		var time = document.getElementById('time');
+		time.innerHTML = Date();
+	}
+
+	function clearDate(){
+		var time = document.getElementById('time');
+		time.innerHTML = ''
+	}
+
+	// Forms
+
+</script>
+
+</body>
+</html>
+

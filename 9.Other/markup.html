@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en
+<head>
+    <meta charset="utf-8" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="markup.css" media="screen" />
+</head>
+<body>
+    <h1>Snapshots</h1>
+    <ul>
+    <li>
+        <a href="images/kk.jpg" onclick="showPic(this);return false;" title="unknown cat">Cat</a>
+    </li>
+    <li>
+        <a href="images/LiWentao.png" onclick="showPic(this);return false;" title="me">Me</a>
+    </li>
+    <li>
+        <a href="images/Lagrangian.png" onclick="showPic(this);return false;" title="math">Math</a>
+    </li>
+    <img id="placeholder" src="images/2.55.png" alt="my image gallery" />
+    </ul>
+    <a href="http://www.example.com" onclick="showPic(this);return false;">Click Me</a>
+    <p id="description">Choose an image.</p>
+    <script type="text/javascript" src="markup.js"></script>
+</body>
+</html>
