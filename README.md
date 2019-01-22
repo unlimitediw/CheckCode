@@ -6,7 +6,7 @@
 * 9为部分日常代码以及诸如c,js,css,ruby与pl等语言的练习。
 
 ### 0. [算法](https://github.com/unlimitediw/CheckCode/tree/master/0.%E7%AE%97%E6%B3%95)
-* 简介：包含如backtracking，动态规划，树结构等各类算法。此文档所存是2018年7-10月使用python实现的算法，而在2018年1-2月的算法均使用c++实现，近期主要使用java完成算法工作，其他大部分时间使用的是python。leetcode目前完成476题[unlimitediw](https://leetcode.com/unlimitediw/)，其中medium&hard占比65%。每周leetcode contest前三道（一般为双medium，hard）均可在一个小时内完成，第四道hard看运气。
+* 简介：包含如backtracking，动态规划，树结构等各类算法。此文档所存是2018年7-10月使用python实现的算法，而在2018年1-2月的算法均使用c++实现，近期主要使用java完成算法工作，其他大部分时间使用的是python。leetcode目前完成476题[unlimitediw](https://leetcode.com/unlimitediw/)，其中medium&hard占比65%。每周leetcode contest前三道（一般为双medium，hard）均可在一个小时内完成，第四道hard有思路一般能做出来（可能时间不够）。
 
 ### 1. [城市数据预测](https://github.com/unlimitediw/CheckCode/tree/master/1.%E5%9F%8E%E5%B8%82%E6%95%B0%E6%8D%AE%E9%A2%84%E6%B5%8B)
 * 简介：主要分为 - 1.基于SVR与MLP的数值预测部分; 2.基于CNN的特征验证部分。
