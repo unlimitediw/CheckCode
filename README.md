@@ -1,10 +1,9 @@
 # 项目及部分日常代码
 > @unlimitediw 李文韬
-* P.s 经过早上和hr的沟通，发现确实存在压缩包中数据，包繁杂，可读性低的问题。作为改进，新包将只存在txt(README)，md(云计算项目)，pdf(报告)和代码文件，均为自己完成，合作完成项目会特别注明。——2019-01-22 GMT8
+* P.s-1 经过早上和hr的沟通，发现确实存在压缩包中数据，包繁杂，可读性低的问题。作为改进，新包将只存在txt(README)，md(云计算项目)，pdf(报告)和代码文件，均为自己完成，合作完成项目会特别注明。——2019-01-22 GMT8
 
 * 0-8主要针对简历上的项目以及个人经历一一简要介绍
 * 9为部分日常代码以及诸如c,js,css,ruby与pl等语言的练习。
-
 
 ### 0. [算法](https://github.com/unlimitediw/CheckCode/tree/master/0.%E7%AE%97%E6%B3%95)
 * 简介：包含如backtracking，动态规划，树结构等各类算法。此文档所存是2018年7-10月使用python实现的算法，而在2018年1-2月的算法均使用c++实现，近期主要使用java完成算法工作。leetcode目前完成476题（unlimitediw)，其中medium&hard占比65%。每周leetcode contest前三道（一般为双medium，hard）均可在一个小时内完成，第四道hard看运气。
